@@ -351,4 +351,4 @@
 
     LiteGraph.registerNodeType("input/gamepad", GamepadInput);
 
-})(this);
+})(global);

@@ -558,4 +558,4 @@ LiteGraph.registerNodeType("events/waitAll", WaitAll);
 
 
 
-})(this);
+})(global);

@@ -893,4 +893,4 @@
     };
 
     LiteGraph.registerNodeType("graphics/webcam", ImageWebcam);
-})(this);
+})(global);

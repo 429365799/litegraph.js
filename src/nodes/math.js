@@ -1330,4 +1330,4 @@
 
     LiteGraph.registerNodeType("math3d/xyzw-to-vec4", Math3DXYZWToVec4);
 
-})(this);
+})(global);

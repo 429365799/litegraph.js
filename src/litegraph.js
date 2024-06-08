@@ -1,3 +1,4 @@
+const global = {};
 
 (function(global) {
     // *************************************************************
@@ -14409,16 +14410,13 @@ LGraphNode.prototype.executeAction = function(action)
                 window.setTimeout(callback, 1000 / 60);
             };
     }
-})(this);
+})(global);
 
-if (typeof exports != "undefined") {
-    exports.LiteGraph = this.LiteGraph;
-    exports.LGraph = this.LGraph;
-    exports.LLink = this.LLink;
-    exports.LGraphNode = this.LGraphNode;
-    exports.LGraphGroup = this.LGraphGroup;
-    exports.DragAndScale = this.DragAndScale;
-    exports.LGraphCanvas = this.LGraphCanvas;
-    exports.ContextMenu = this.ContextMenu;
-}
-
+export const LiteGraph = global.LiteGraph;
+export const LGraph = global.LGraph;
+export const LLink = global.LLink;
+export const LGraphNode = global.LGraphNode;
+export const LGraphGroup = global.LGraphGroup;
+export const DragAndScale = global.DragAndScale;
+export const LGraphCanvas = global.LGraphCanvas;
+export const ContextMenu = global.ContextMenu;

@@ -34,4 +34,4 @@
     LiteGraph.slot_types_default_out["vec3"] = "math3d/vec3-to-xyz";
     LiteGraph.slot_types_default_out["vec4"] = "math3d/vec4-to-xyzw";
     
-})(this);
+})(global);

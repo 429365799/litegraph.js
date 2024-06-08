@@ -1583,4 +1583,4 @@
     function now() {
         return window.performance.now();
     }
-})(this);
+})(global);

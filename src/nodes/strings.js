@@ -147,4 +147,4 @@
 
     LiteGraph.registerNodeType("string/toTable", StringToTable);
 
-})(this);
+})(global);

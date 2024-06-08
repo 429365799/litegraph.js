@@ -570,4 +570,4 @@
 	else if (LiteGraph.debug)
 		console.warn("No glmatrix found, some Math3D nodes may not work");
 
-})(this);
+})(global);

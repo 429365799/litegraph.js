@@ -5485,4 +5485,4 @@ void main(void){\n\
 	};
 
 	LiteGraph.registerNodeType( "texture/cubemapToTexture2D", LGraphCubemapToTexture2D );
-})(this);
+})(global);

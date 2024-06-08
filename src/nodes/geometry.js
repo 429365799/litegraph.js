@@ -1907,4 +1907,4 @@ function LGraphGeometryDisplace() {
 
 
 
-})(this);
+})(global);

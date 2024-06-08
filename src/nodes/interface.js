@@ -795,4 +795,4 @@
     };
 
     LiteGraph.registerNodeType("widget/panel", WidgetPanel);
-})(this);
+})(global);

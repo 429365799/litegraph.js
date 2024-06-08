@@ -1767,4 +1767,4 @@ LiteGraph.registerNodeType("basic/jsonparse", JSONParse);
 
     LiteGraph.registerNodeType("basic/CompareValues", GenericCompare);
     
-})(this);
+})(global);

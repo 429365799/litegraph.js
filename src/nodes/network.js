@@ -425,4 +425,4 @@ LiteGraph.registerNodeType("network/httprequest", HTTPRequestNode);
 
 
 	
-})(this);
+})(global);
